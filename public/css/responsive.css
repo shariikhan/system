@@ -1,0 +1,190 @@
+@media only screen and (min-width: 1900px) {
+    .card{
+        font-size: 50px;
+    }
+    .card__top, 
+    .card__bottom, 
+    .card__back:before, 
+    .card__back:after{
+        width: 2.3em;
+    }
+    .flip-clock__slot{
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media only screen and (max-width: 1900px) {
+    .logo-tagline h1{
+        font-size: 70px;
+    }
+    .main_counter_title h2{
+        font-size: 55px;
+    }
+    .counter-box h2{
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .logo-tagline h1{
+        font-size: 60px;
+    }
+    .counter-box{
+        padding: 30px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .logo-tagline h1{
+        font-size: 60px;
+    }
+    .main_counter_title h2{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .logo-tagline h1{
+        font-size: 55px;
+    }
+    .main_counter_title h2{
+        font-size: 45px;
+    }
+    .counter-title h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .logo-tagline h1{
+        font-size: 50px;
+    }
+    .main_counter,
+    .main_counter_wrapper,
+    .counter_content{
+        padding: 50px 100px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .counter-title h2{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .logo-tagline h1{
+        font-size: 45px;
+    }
+    .counter-title h2{
+        font-size: 35px;
+    }
+    .main_counter,
+    .main_counter_wrapper,
+    .counter_content{
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo-tagline h1{
+        font-size: 40px;
+    }
+    .main_counter_title h2{
+        font-size: 35px;
+    }
+    .counter-title h2{
+        font-size: 30px;
+    }
+	.counter_content .col-lg-4{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .site-buttons a.signup-btn,
+    .site-buttons a.donate-btn{
+        padding: 15px 60px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    body{
+        min-height: 100vh;
+    }
+    .logo-tagline h1{
+        font-size: 35px;
+    }
+    .site-buttons a.signup-btn,
+    .site-buttons a.donate-btn{
+        padding: 15px 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .responsive-order-1{
+        order: 1;
+    }
+    .responsive-order-2{
+        order: 2;
+    }
+	.logo-wrapper{
+        text-align: center;
+    }
+    .main_counter_title h2{
+        font-size: 30px;
+    }
+    .main_counter_wrapper .row .col-lg-4{
+        padding-bottom: 50px;
+    }
+    .main_counter_wrapper .row .col-lg-4:last-child{
+        padding-bottom: 0px;
+    }
+    .membership-cost{
+        padding-bottom: 50px;
+    }
+    .counter_content .col-lg-4{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .main_counter_title{
+        padding: 10px;
+    }
+    .logo-tagline h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header,
+    .main_counter,
+    .main_counter_wrapper,
+    .counter_content{
+        padding: 50px 20px;
+    }
+	.main_counter_title:before,
+    .main_counter_title:after{
+        width: 20px;
+    }
+    .membership-cost h2{
+        font-size: 40px;
+    }
+    .counter-content-description p{
+        text-align: left;
+    }
+    .membership-cost ul li{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .site-buttons a.signup-btn{
+        margin-right: 10px;
+    }
+    .site-buttons a.signup-btn, .site-buttons a.donate-btn{
+        padding: 5px 25px;
+    }
+	
+}
